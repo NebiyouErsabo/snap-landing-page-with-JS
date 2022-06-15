@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/c57e3e7302.js"></script>
+  <title>Snap Website</title>
+
+</head>
+<body>
+  <header>
+    <img src="./images/logo.svg" alt="snap logo">
+    <div class="navbar">
+      <div class="nav_mob">
+        <button class="hamburger">
+        <div class="bar"></div>
+        </button> 
+    
+        <ul class = nav_links>
+          <li>
+            <a href="#" class="nav_link_items first">Features</a>
+            <ul class = "dropdown-container">
+              <li class="dropdown-container-item">
+                <img src="./images/icon-todo.svg" alt="todo" class ="dropdown-container-img">
+                <a href="#TodoList" class="dropdown-container-link">Todo List</a>
+              </li>
+              <li class="dropdown-container-item">
+                <img src="./images/icon-calendar.svg" alt="calendar" class ="dropdown-container-img">
+                <a href="#Calendar" class="dropdown-container-link">Calendar</a>
+              </li>
+              <li class="dropdown-container-item">
+                <img src="./images/icon-reminders.svg" alt="reminders" class ="dropdown-container-img">
+                <a href="#Reminders" class="dropdown-container-link">Reminders</a>
+              </li>
+              <li class="dropdown-container-item">
+                <img src="./images/icon-planning.svg" alt="planning" class ="dropdown-container-img">
+                <a href="#planning" class="dropdown-container-link">Planning</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="nav_link_items second">Company</a></li>
+            <ul class = "dropdown-container-second">
+              <li class="dropdown-container-item"><a href="#history" class="dropdown-container-link">History</a></li>
+              <li class="dropdown-container-item"><a href="#ourTeam" class="dropdown-container-link">Our Team</a></li>
+              <li class="dropdown-container-item"><a href="#Blog" class="dropdown-container-link">Blog</a></li>
+            </ul>
+          <li><a href="#Careers" class="nav_link_items">Careers</a></li>
+          <li><a href="#About" class="nav_link_items">About</a></li>
+          <div class="buttons">
+           <button class ="login_btn">Login</button>
+           <button class ="register_btn">Register</button> 
+          </div>
+        </ul>
+      </div>
+  </div>
+  </header>
+  <main>
+    <div class="hero-container">
+      <div class="hero-img">
+        <img src="./images/image-hero-mobile.png" alt="snap hero" class = "hero-img-mob">
+        <img src="./images/image-hero-desktop.png" alt="snap hero" class = "hero-img-desktop">
+      </div>
+      <div class="hero-text">
+        <h1 class="hero-banner">Make remote work</h1>
+        <p class="hero-paragraph">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+
+        <button class="more_btn">Learn more</button>
+        <div class="sponsors-logo">
+          <img src="./images/client-databiz.svg" alt="databiz" class ="footer-logo">
+          <img src="./images/client-audiophile.svg" alt="audiophile" class = "footer-logo">
+          <img src="./images/client-meet.svg" alt="meet" class = "footer-logo">
+          <img src="./images/client-maker.svg" alt="maker" class = "footer-logo">
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+
+  
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src ="app.js"></script>
+</body>
+</html>
